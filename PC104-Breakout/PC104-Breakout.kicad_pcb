@@ -1020,7 +1020,7 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_2x26_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "14300ac2-c604-43e7-b0b5-1c3bb8bfa3a6")
-		(at 167.64 132.08 180)
+		(at 169.12 132.5 180)
 		(descr "Through hole straight pin header, 2x26, 2.54mm pitch, double rows")
 		(tags "Through hole pin header THT 2x26 2.54mm double row")
 		(property "Reference" "H1"
@@ -2916,7 +2916,7 @@
 	(footprint "TerminalBlock:TerminalBlock_bornier-2_P5.08mm"
 		(layer "F.Cu")
 		(uuid "4f213a8b-725e-4cb4-bbcf-7a275990b050")
-		(at 106.46 56.5)
+		(at 105.92 57)
 		(descr "simple 2-pin terminal block, pitch 5.08mm, revamped version of bornier2")
 		(tags "terminal block bornier2")
 		(property "Reference" "J1"
@@ -4232,7 +4232,7 @@
 	(footprint "TerminalBlock:TerminalBlock_bornier-2_P5.08mm"
 		(layer "F.Cu")
 		(uuid "dbb01781-dc6c-4fc9-9385-3d3c32575796")
-		(at 133.92 58)
+		(at 134.96 57)
 		(descr "simple 2-pin terminal block, pitch 5.08mm, revamped version of bornier2")
 		(tags "terminal block bornier2")
 		(property "Reference" "J3"
@@ -4486,7 +4486,7 @@
 	(footprint "TerminalBlock:TerminalBlock_bornier-2_P5.08mm"
 		(layer "F.Cu")
 		(uuid "ddeeff88-3b52-411c-bcd7-bb6dfdd86865")
-		(at 120.96 57)
+		(at 120.46 57)
 		(descr "simple 2-pin terminal block, pitch 5.08mm, revamped version of bornier2")
 		(tags "terminal block bornier2")
 		(property "Reference" "J2"
@@ -4740,7 +4740,7 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_2x26_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "e2b3f106-8276-47d2-a68a-3a754d18f957")
-		(at 162.56 132.08 180)
+		(at 164.04 132.5 180)
 		(descr "Through hole straight pin header, 2x26, 2.54mm pitch, double rows")
 		(tags "Through hole pin header THT 2x26 2.54mm double row")
 		(property "Reference" "H2"
@@ -6406,8 +6406,8 @@
 		)
 	)
 	(gr_rect
-		(start 150 55)
-		(end 245 145)
+		(start 146.9 56.6)
+		(end 241.9 146.6)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -6426,5 +6426,681 @@
 		(fill none)
 		(layer "Edge.Cuts")
 		(uuid "1065e0aa-8c0f-49a6-98d1-90e14dcc153c")
+	)
+	(gr_text "H2-01\n"
+		(at 172.48 134.42 0)
+		(layer "F.Cu")
+		(uuid "070c1956-bf37-4202-8bc0-7758e0d5a82e")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "H2-08"
+		(at 149.98 126.62 0)
+		(layer "F.Cu")
+		(uuid "075c6267-4ada-4ad2-8d95-d78c0924a708")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "H2-47"
+		(at 172.48 74.62 0)
+		(layer "F.Cu")
+		(uuid "0d387903-9a94-4837-98f7-f81c57e35e86")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "H2-27"
+		(at 172.48 100.62 0)
+		(layer "F.Cu")
+		(uuid "14e311d8-1a4f-46b7-9338-4d9a1c34ad74")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "H2-52"
+		(at 149.98 69.42 0)
+		(layer "F.Cu")
+		(uuid "18cdb04e-5492-4fcd-bfef-f26ca6be1fd6")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "H2-35"
+		(at 172.48 90.22 0)
+		(layer "F.Cu")
+		(uuid "18d0b656-3c8c-48cc-9cfe-a9dd760f930a")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "H2-31"
+		(at 172.48 95.42 0)
+		(layer "F.Cu")
+		(uuid "20c4ea4a-e41f-426b-aaa4-41ac9f1f0bf8")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "H2-37"
+		(at 172.48 87.62 0)
+		(layer "F.Cu")
+		(uuid "2118566f-9aaa-4950-89b6-d1ceb9409eaa")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "H2-33"
+		(at 172.48 92.82 0)
+		(layer "F.Cu")
+		(uuid "22adb3f5-0e05-4dac-8b79-84a7ffac44d2")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "H2-10"
+		(at 149.98 124.02 0)
+		(layer "F.Cu")
+		(uuid "2b0a6fc8-095e-4e2d-8054-6f39aec6b1da")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "H2-44\n"
+		(at 149.98 79.82 0)
+		(layer "F.Cu")
+		(uuid "3610f9d3-9b5e-4e9d-9fe4-385a06c4de8e")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "H2-36"
+		(at 149.98 90.22 0)
+		(layer "F.Cu")
+		(uuid "3a9ed7d4-8a10-42cd-9a17-966e61522650")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "H2-05"
+		(at 172.48 129.22 0)
+		(layer "F.Cu")
+		(uuid "3b1830e7-2e62-4ad7-8b78-c6751af980a2")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "H2-07"
+		(at 172.48 126.62 0)
+		(layer "F.Cu")
+		(uuid "3caa0cbc-5731-4dd6-9c23-fd4457412c72")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "H2-01\n"
+		(at 149.98 134.42 0)
+		(layer "F.Cu")
+		(uuid "3f577b80-7e0e-417d-b235-4f226be449c5")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "H2-06\n"
+		(at 149.98 129.22 0)
+		(layer "F.Cu")
+		(uuid "432f3276-1ef5-4687-83a7-619f9eabf4ab")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "H2-32"
+		(at 149.98 95.42 0)
+		(layer "F.Cu")
+		(uuid "4d176ffa-aa59-4fbd-9522-86b97adafdc7")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "H2-25"
+		(at 172.48 103.22 0)
+		(layer "F.Cu")
+		(uuid "4f756150-e04f-4adf-a597-3557d7060359")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "H2-40"
+		(at 149.98 85.02 0)
+		(layer "F.Cu")
+		(uuid "55f7c351-733d-45d5-8f6e-176ee045585b")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "H2-26"
+		(at 149.98 103.22 0)
+		(layer "F.Cu")
+		(uuid "5a40ce1c-01de-4ef2-95ff-f31e76263f12")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "H2-21"
+		(at 172.48 108.42 0)
+		(layer "F.Cu")
+		(uuid "61361d0d-ecae-4990-90fd-79507f4ed5b6")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "H2-43\n"
+		(at 172.48 79.82 0)
+		(layer "F.Cu")
+		(uuid "61a06a46-bfb9-4b36-b4db-caa3eb5d4ee3")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "H2-09"
+		(at 172.48 124.02 0)
+		(layer "F.Cu")
+		(uuid "61b9ef05-823d-4332-b1b3-81e12cda60e8")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "H2-46\n"
+		(at 149.98 77.22 0)
+		(layer "F.Cu")
+		(uuid "62732e9d-2098-4572-b8e5-0fa2538230c6")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "H2-15"
+		(at 172.48 116.22 0)
+		(layer "F.Cu")
+		(uuid "6472681c-a832-40fb-a962-1d5ace1144b6")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "H2-22"
+		(at 149.98 108.42 0)
+		(layer "F.Cu")
+		(uuid "68d10926-ff68-4f9b-bc9f-10cd8fc6b4bf")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "H2-29"
+		(at 172.48 98.02 0)
+		(layer "F.Cu")
+		(uuid "6c656f52-f242-4a83-a07f-3bef651acf98")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "H2-38"
+		(at 149.98 87.62 0)
+		(layer "F.Cu")
+		(uuid "6e721ff2-88af-4aa3-abec-ac7ecf19df71")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "H2-24"
+		(at 149.98 105.82 0)
+		(layer "F.Cu")
+		(uuid "78bf7bfd-7c71-4c9a-b164-db18128832e1")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "H2-16"
+		(at 149.98 116.22 0)
+		(layer "F.Cu")
+		(uuid "7f2d73ea-f313-418d-8630-cdf57e691989")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "H2-41\n"
+		(at 172.48 82.42 0)
+		(layer "F.Cu")
+		(uuid "85b7f94d-29ef-42de-8573-c47ec0e259b0")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "H2-51"
+		(at 172.48 69.42 0)
+		(layer "F.Cu")
+		(uuid "8a90fdd0-4f3e-4f5a-9ddc-c303185dfc0c")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "H2-28"
+		(at 149.98 100.62 0)
+		(layer "F.Cu")
+		(uuid "906ab521-c6e5-4e6b-bb04-8453e9926329")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "H2-17"
+		(at 172.48 113.62 0)
+		(layer "F.Cu")
+		(uuid "91155708-e24e-4aa4-9b60-bcd79dcf5ec0")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "H2-30"
+		(at 149.98 98.02 0)
+		(layer "F.Cu")
+		(uuid "94578a28-0fc2-4d2d-a7d8-84bb1f67d10b")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "H2-45"
+		(at 172.48 77.22 0)
+		(layer "F.Cu")
+		(uuid "94ec8923-534f-4ee7-86f8-63a3e3089d75")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "H2-11"
+		(at 172.48 121.42 0)
+		(layer "F.Cu")
+		(uuid "a130d446-6f8a-4fd8-bd4a-12b01b161615")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "H2-39\n"
+		(at 172.48 85.02 0)
+		(layer "F.Cu")
+		(uuid "a1444dbf-fdc9-4674-8532-9c1845ad0bb9")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "H2-34"
+		(at 149.98 92.82 0)
+		(layer "F.Cu")
+		(uuid "b1e98415-b397-40e3-a052-4c0fac93c66d")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "H2-04"
+		(at 149.98 131.82 0)
+		(layer "F.Cu")
+		(uuid "b6028366-25d5-486a-8adf-fe5d0d95d0e3")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "H2-48"
+		(at 149.98 74.62 0)
+		(layer "F.Cu")
+		(uuid "c51467ea-1c6f-45d9-80f2-544afc5c9d48")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "H2-42\n"
+		(at 149.98 82.42 0)
+		(layer "F.Cu")
+		(uuid "c5f4d59e-1e6c-4803-88ab-7b3b700688e7")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "H2-49"
+		(at 172.48 72.02 0)
+		(layer "F.Cu")
+		(uuid "c81305e6-7ae6-4cd5-a195-e95bd8b5228b")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "H2-20"
+		(at 149.98 111.02 0)
+		(layer "F.Cu")
+		(uuid "cc70ca90-3d22-4a71-bb7b-e55b7fd221d5")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "H2-13"
+		(at 172.48 118.82 0)
+		(layer "F.Cu")
+		(uuid "d1a87984-5ed2-4f1e-b1bc-d0354e05c7e6")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "H2-19"
+		(at 172.48 111.02 0)
+		(layer "F.Cu")
+		(uuid "d961e94d-24e2-4d7e-b6e9-502fce13f04a")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "H2-12"
+		(at 149.98 121.42 0)
+		(layer "F.Cu")
+		(uuid "e0349b1c-c968-4556-a5ca-cc96440d9b32")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "H2-18"
+		(at 149.98 113.62 0)
+		(layer "F.Cu")
+		(uuid "e0950ffd-53e6-468b-91d1-6535a2e09d92")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "H2-03"
+		(at 172.48 131.82 0)
+		(layer "F.Cu")
+		(uuid "e71e3dbd-9118-4cae-b1e8-d881c7a2289a")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "H2-50"
+		(at 149.98 72.02 0)
+		(layer "F.Cu")
+		(uuid "ebffd14e-d63f-4d68-9ca0-2f6d975fa533")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "H2-23"
+		(at 172.48 105.82 0)
+		(layer "F.Cu")
+		(uuid "f3ce9078-d371-4e45-b2ae-d1eee3b132b6")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "H2-14"
+		(at 149.98 118.82 0)
+		(layer "F.Cu")
+		(uuid "f679ade8-1f16-408d-8d8f-e8b4fd7c1028")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
 	)
 )
