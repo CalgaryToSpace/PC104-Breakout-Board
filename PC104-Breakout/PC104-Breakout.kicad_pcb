@@ -6,7 +6,7 @@
 		(thickness 1.6)
 		(legacy_teardrops no)
 	)
-	(paper "A4")
+	(paper "USLetter")
 	(layers
 		(0 "F.Cu" signal)
 		(1 "In1.Cu" signal)
@@ -253,7 +253,7 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_2x26_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "04a62f89-dac1-416a-a1a2-0d8e0e6e65db")
-		(at 131.6 132.5 180)
+		(at 109.5 133.36 180)
 		(descr "Through hole straight pin header, 2x26, 2.54mm pitch, double rows")
 		(tags "Through hole pin header THT 2x26 2.54mm double row")
 		(property "Reference" "H1E1"
@@ -1086,9 +1086,10 @@
 		)
 	)
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_2x26_P2.54mm_Vertical"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "14300ac2-c604-43e7-b0b5-1c3bb8bfa3a6")
-		(at 171.4 132.48 180)
+		(at 156.81 131.115 180)
 		(descr "Through hole straight pin header, 2x26, 2.54mm pitch, double rows")
 		(tags "Through hole pin header THT 2x26 2.54mm double row")
 		(property "Reference" "H1"
@@ -1920,14 +1921,16 @@
 		)
 	)
 	(footprint "MountingHole:MountingHole_3.2mm_M3_Pad"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "19a067b6-b261-4598-9b43-84430d4b4121")
-		(at 155.08 60.08)
+		(at 234.92 59.995)
 		(descr "Mounting Hole 3.2mm, M3")
 		(tags "mounting hole 3.2mm m3")
 		(property "Reference" "M2"
 			(at 0 -4.2 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "38e19208-8336-4daa-b56e-26e42fdf43f4")
 			(effects
 				(font
@@ -2034,9 +2037,10 @@
 		)
 	)
 	(footprint "MountingHole:MountingHole_3.2mm_M3_Pad"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "20f9f6eb-1c51-4470-853f-f1667169d311")
-		(at 155.08 139.92)
+		(at 234.92 140.005)
 		(descr "Mounting Hole 3.2mm, M3")
 		(tags "mounting hole 3.2mm m3")
 		(property "Reference" "M3"
@@ -2151,7 +2155,7 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_2x26_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "41a3a296-b77a-4a1d-a1bb-f27c734411fa")
-		(at 143.2 132.48 180)
+		(at 121.1 133.34 180)
 		(descr "Through hole straight pin header, 2x26, 2.54mm pitch, double rows")
 		(tags "Through hole pin header THT 2x26 2.54mm double row")
 		(property "Reference" "H1O1"
@@ -2986,7 +2990,7 @@
 	(footprint "TerminalBlock:TerminalBlock_bornier-2_P5.08mm"
 		(layer "F.Cu")
 		(uuid "4f213a8b-725e-4cb4-bbcf-7a275990b050")
-		(at 105.92 57)
+		(at 97.1 57)
 		(descr "simple 2-pin terminal block, pitch 5.08mm, revamped version of bornier2")
 		(tags "terminal block bornier2")
 		(property "Reference" "J1"
@@ -3238,13 +3242,14 @@
 		)
 	)
 	(footprint "MountingHole:MountingHole_3.2mm_M3_Pad"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "53b111d5-43d8-49f2-9d07-a4b34f6ce414")
-		(at 239.92 139.92)
+		(at 149.19 136.195)
 		(descr "Mounting Hole 3.2mm, M3")
 		(tags "mounting hole 3.2mm m3")
 		(property "Reference" "M4"
-			(at 0 -4.2 0)
+			(at -22.1 -3.34 0)
 			(layer "F.SilkS")
 			(uuid "b20ec121-34be-4e6f-85ce-ae34ea8ccbb9")
 			(effects
@@ -3352,6 +3357,7 @@
 		)
 	)
 	(footprint "MountingHole:MountingHole_3.2mm_M3_Pad"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "61831b9a-bfd0-4043-a14d-51def1e03f9f")
 		(at 245 55)
@@ -3468,7 +3474,7 @@
 	(footprint "MountingHole:MountingHole_3.2mm_M3_Pad"
 		(layer "F.Cu")
 		(uuid "9ca0641b-1e74-4637-a455-6ffec8844183")
-		(at 105 55)
+		(at 80 55)
 		(descr "Mounting Hole 3.2mm, M3")
 		(tags "mounting hole 3.2mm m3")
 		(property "Reference" "M5"
@@ -3580,14 +3586,16 @@
 		)
 	)
 	(footprint "MountingHole:MountingHole_3.2mm_M3_Pad"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "9d621400-3d98-4eea-af8f-0677cabec31b")
-		(at 239.92 60.08)
+		(at 149.19 62.535)
 		(descr "Mounting Hole 3.2mm, M3")
 		(tags "mounting hole 3.2mm m3")
 		(property "Reference" "M1"
 			(at 0 -4.2 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "9dba7f46-f6fd-4466-8afa-0a919f4ad0f3")
 			(effects
 				(font
@@ -3696,7 +3704,7 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_2x26_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "c67658e4-841d-4491-9609-233ecf6aa9e2")
-		(at 119.6 132.48 180)
+		(at 97.5 133.34 180)
 		(descr "Through hole straight pin header, 2x26, 2.54mm pitch, double rows")
 		(tags "Through hole pin header THT 2x26 2.54mm double row")
 		(property "Reference" "H2O1"
@@ -4531,7 +4539,7 @@
 	(footprint "MountingHole:MountingHole_3.2mm_M3_Pad"
 		(layer "F.Cu")
 		(uuid "c76d8995-2bd0-4953-82bf-6b10af1894ba")
-		(at 105 145)
+		(at 80 145)
 		(descr "Mounting Hole 3.2mm, M3")
 		(tags "mounting hole 3.2mm m3")
 		(property "Reference" "M8"
@@ -4645,7 +4653,7 @@
 	(footprint "TerminalBlock:TerminalBlock_bornier-2_P5.08mm"
 		(layer "F.Cu")
 		(uuid "dbb01781-dc6c-4fc9-9385-3d3c32575796")
-		(at 137.32 57)
+		(at 128.5 57)
 		(descr "simple 2-pin terminal block, pitch 5.08mm, revamped version of bornier2")
 		(tags "terminal block bornier2")
 		(property "Reference" "J3"
@@ -4899,7 +4907,7 @@
 	(footprint "TerminalBlock:TerminalBlock_bornier-2_P5.08mm"
 		(layer "F.Cu")
 		(uuid "ddeeff88-3b52-411c-bcd7-bb6dfdd86865")
-		(at 121.72 56.8)
+		(at 112.9 56.8)
 		(descr "simple 2-pin terminal block, pitch 5.08mm, revamped version of bornier2")
 		(tags "terminal block bornier2")
 		(property "Reference" "J2"
@@ -5151,13 +5159,14 @@
 		)
 	)
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_2x26_P2.54mm_Vertical"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "e2b3f106-8276-47d2-a68a-3a754d18f957")
-		(at 166.32 132.48 180)
+		(at 151.73 131.115 180)
 		(descr "Through hole straight pin header, 2x26, 2.54mm pitch, double rows")
 		(tags "Through hole pin header THT 2x26 2.54mm double row")
 		(property "Reference" "H2"
-			(at 1.27 -2.33 180)
+			(at -0.77 -2.385 180)
 			(layer "F.SilkS")
 			(uuid "0843a2b0-0075-4e78-acf8-18c1f671958f")
 			(effects
@@ -5985,6 +5994,7 @@
 		)
 	)
 	(footprint "MountingHole:MountingHole_3.2mm_M3_Pad"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "ea1b8ce2-aaa0-4cae-b521-1c342ec894f2")
 		(at 245 145)
@@ -6101,7 +6111,7 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_2x26_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "ebc3fbd2-7ac1-4523-aafa-c7e5c239752e")
-		(at 107.8 132.54 180)
+		(at 85.7 133.4 180)
 		(descr "Through hole straight pin header, 2x26, 2.54mm pitch, double rows")
 		(tags "Through hole pin header THT 2x26 2.54mm double row")
 		(property "Reference" "H2E1"
@@ -6934,8 +6944,9 @@
 		)
 	)
 	(gr_rect
-		(start 149.455 55.2)
-		(end 245.345 145.37)
+		(start 144.11 54.915)
+		(end 240 145.085)
+		(locked yes)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -6945,7 +6956,7 @@
 		(uuid "c39e02a9-2813-4f1a-afff-b7071dc4d07f")
 	)
 	(gr_rect
-		(start 100 50)
+		(start 75 50)
 		(end 250 150)
 		(stroke
 			(width 0.05)
@@ -6956,7 +6967,7 @@
 		(uuid "1065e0aa-8c0f-49a6-98d1-90e14dcc153c")
 	)
 	(gr_text "52\n50\n48\n46\n44\n42\n40\n38\n36\n34\n32\n30\n28\n26\n24\n22\n20\n18\n16\n14\n12\n10\n08\n06\n04\n02"
-		(at 110.4 133.8 0)
+		(at 88.3 134.66 0)
 		(layer "F.SilkS")
 		(uuid "06d07123-d06f-4422-8d5e-5e7613838b2e")
 		(effects
@@ -6969,7 +6980,7 @@
 		)
 	)
 	(gr_text "52\n50\n48\n46\n44\n42\n40\n38\n36\n34\n32\n30\n28\n26\n24\n22\n20\n18\n16\n14\n12\n10\n08\n06\n04\n02"
-		(at 134 133.6 0)
+		(at 111.9 134.46 0)
 		(layer "F.SilkS")
 		(uuid "19a1e2dc-4b75-4a6b-b301-05352fa45871")
 		(effects
@@ -6982,7 +6993,7 @@
 		)
 	)
 	(gr_text "H2 EVEN\n"
-		(at 103.2 67 0)
+		(at 81.1 67.86 0)
 		(layer "F.SilkS")
 		(uuid "57f55f0f-0cbe-42fc-a314-96aacc0f193a")
 		(effects
@@ -6995,7 +7006,7 @@
 		)
 	)
 	(gr_text "H1 EVEN\n"
-		(at 127 67 0)
+		(at 104.9 67.86 0)
 		(layer "F.SilkS")
 		(uuid "5a2f100f-94d4-4f40-9ea7-a0ce0dcdfbc0")
 		(effects
@@ -7008,7 +7019,8 @@
 		)
 	)
 	(gr_text "H1-51\nH1-49\nH1-47\nH1-45\nH1-43\nH1-41\nH1-39\nH1-37\nH1-35\nH1-33\nH1-31\nH1-29\nH1-27\nH1-25\nH1-23\nH1-21\nH1-19\nH1-17\nH1-15\nH1-13\nH1-11\nH1-09\nH1-07\nH1-05\nH1-03\nH1-01"
-		(at 174.2 133.2 0)
+		(locked yes)
+		(at 159 132 0)
 		(layer "F.SilkS")
 		(uuid "61a1a88c-39dc-4501-805d-3e4460d0e076")
 		(effects
@@ -7021,7 +7033,7 @@
 		)
 	)
 	(gr_text "H1 ODD"
-		(at 139 67 0)
+		(at 116.9 67.86 0)
 		(layer "F.SilkS")
 		(uuid "81a63270-914c-4cd6-bc1e-098714da0366")
 		(effects
@@ -7034,7 +7046,7 @@
 		)
 	)
 	(gr_text "51\n49\n47\n45\n43\n41\n39\n37\n35\n33\n31\n29\n27\n25\n23\n21\n19\n17\n15\n13\n11\n09\n07\n05\n03\n01"
-		(at 145.8 133.6 0)
+		(at 123.7 134.46 0)
 		(layer "F.SilkS")
 		(uuid "9a043724-ed8f-4c91-a86b-4aab9acdbdf5")
 		(effects
@@ -7047,7 +7059,7 @@
 		)
 	)
 	(gr_text "H2 ODD"
-		(at 115.4 67 0)
+		(at 93.3 67.86 0)
 		(layer "F.SilkS")
 		(uuid "be3ff4f9-23a0-480c-8ff5-b7ac8eb1abd8")
 		(effects
@@ -7060,7 +7072,7 @@
 		)
 	)
 	(gr_text "51\n49\n47\n45\n43\n41\n39\n37\n35\n33\n31\n29\n27\n25\n23\n21\n19\n17\n15\n13\n11\n09\n07\n05\n03\n01"
-		(at 122.4 133.6 0)
+		(at 100.3 134.46 0)
 		(layer "F.SilkS")
 		(uuid "db1944b5-5941-4a71-a59b-cf7dd67f9b92")
 		(effects
@@ -7073,7 +7085,8 @@
 		)
 	)
 	(gr_text "H2-52\nH2-50\nH2-48\nH2-46\nH2-44\nH2-42\nH2-40\nH2-38\nH2-36\nH2-34\nH2-32\nH2-30\nH2-28\nH2-26\nH2-24\nH2-22\nH2-20\nH2-18\nH2-16\nH2-14\nH2-12\nH2-10\nH2-08\nH2-06\nH2-04\nH2-02"
-		(at 152.2 133.4 0)
+		(locked yes)
+		(at 139 132 0)
 		(layer "F.SilkS")
 		(uuid "db1b7c76-7c9c-4022-a2b0-52ba59160330")
 		(effects
