@@ -178,7 +178,8 @@
       ],
       "track_widths": [
         0.0,
-        0.3
+        0.3,
+        1.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -440,7 +441,9 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
+    "pinned_footprint_libs": [
+      "PC104-Breakout-Lib"
+    ],
     "pinned_symbol_libs": []
   },
   "meta": {
