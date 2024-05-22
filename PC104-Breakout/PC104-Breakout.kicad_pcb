@@ -9102,7 +9102,7 @@
 		(layer "Edge.Cuts")
 		(uuid "1065e0aa-8c0f-49a6-98d1-90e14dcc153c")
 	)
-	(gr_text "2024-05-20\n"
+	(gr_text "2024-05-21\n"
 		(at 189.645 116.485 0)
 		(layer "B.SilkS")
 		(uuid "401f29e1-ad9a-4f70-aab0-5776e5bd20f9")
@@ -9115,8 +9115,8 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "Rev 1"
-		(at 181.245 109.685 0)
+	(gr_text "Rev 2"
+		(at 181.245 108.7 0)
 		(layer "B.SilkS")
 		(uuid "c8fe61bc-aa86-43ae-933b-f9a7d6c2f57f")
 		(effects
