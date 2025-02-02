@@ -1098,7 +1098,7 @@
 		(descr "Through hole straight socket strip, 1x03, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
 		(tags "Through hole socket strip THT 1x03 2.54mm single row")
 		(property "Reference" "J13"
-			(at 0 -2.77 360)
+			(at 0 -2.77 0)
 			(layer "F.SilkS")
 			(uuid "fdb6d3ae-8cf5-4242-bb92-864f385c8f27")
 			(effects
@@ -1109,7 +1109,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03_Socket"
-			(at 0 7.85 360)
+			(at 0 7.85 0)
 			(layer "F.Fab")
 			(uuid "c03fca3e-4e08-47bb-bb33-5a26649a6f26")
 			(effects
@@ -1376,7 +1376,7 @@
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED handsolder")
 		(property "Reference" "D8"
-			(at -2.625 0 360)
+			(at -2.625 0 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "e9e1de12-1223-438f-8793-1625d300a5ae")
@@ -1388,7 +1388,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "d074554e-71e7-4aa1-8c59-fe88e3d8e040")
 			(effects
@@ -1563,7 +1563,7 @@
 			(uuid "b63ef683-52b4-4313-91eb-3f3d3fa20876")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "e78383f4-04c8-4a71-8d3b-2541a6707195")
 			(effects
@@ -2681,6 +2681,7 @@
 		(property "Reference" "M2"
 			(at 0 -4.2 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "ecc55004-28f9-4978-a028-8c863e1c0827")
 			(effects
 				(font
@@ -2796,7 +2797,7 @@
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED handsolder")
 		(property "Reference" "D7"
-			(at -2.875 0 360)
+			(at -2.875 0 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "be8b300a-1684-488c-b96e-4625ce5253a4")
@@ -2808,7 +2809,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "ffda5b20-6c23-435a-b2ca-66b1ae67af1b")
 			(effects
@@ -2983,7 +2984,7 @@
 			(uuid "eae74e18-18c5-47e8-a9ac-56ed48bc8213")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "73a7fe59-6e9e-4496-b88a-1e9319ba67ac")
 			(effects
@@ -3035,6 +3036,7 @@
 		(property "Reference" "M4"
 			(at 0 -4.2 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "77640dd8-fa6d-4727-bf69-8838b669a0cc")
 			(effects
 				(font
@@ -7816,6 +7818,7 @@
 		(property "Reference" "M1"
 			(at 0 -4.2 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "a8f64a15-8d57-465a-b5bd-99ceb0696fab")
 			(effects
 				(font
@@ -9607,7 +9610,7 @@
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED handsolder")
 		(property "Reference" "D-H2-26"
-			(at 0 -1.43 360)
+			(at 0 -1.43 0)
 			(layer "F.SilkS")
 			(uuid "f23592b4-0531-42a5-adb1-f5e5edaee3bb")
 			(effects
@@ -9618,7 +9621,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "eb13dbea-34f1-472e-b947-9828eb6e0cda")
 			(effects
@@ -9793,7 +9796,7 @@
 			(uuid "f8ec540a-901f-4e19-87cf-16ca6636fb3b")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "559eb648-5660-4d81-a75f-2593fd04876e")
 			(effects
@@ -10690,7 +10693,7 @@
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED handsolder")
 		(property "Reference" "D-H2-25"
-			(at 0 -1.43 360)
+			(at 0 -1.43 0)
 			(layer "F.SilkS")
 			(uuid "8da37f66-9d22-4482-9e44-9b116326f361")
 			(effects
@@ -10701,7 +10704,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "d99eb808-387d-4c0d-bf9a-7e62693505e8")
 			(effects
@@ -10876,7 +10879,7 @@
 			(uuid "d4a480bc-7218-4448-8a27-bcdf2632f0e5")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "5a54be7a-d99d-4da2-83cb-d29ce43a853b")
 			(effects
@@ -14659,7 +14662,7 @@
 		)
 		(property "Value" "3k3"
 			(at 0 -1.43 0)
-			(layer "B.Fab")
+			(layer "B.SilkS")
 			(uuid "6125d3aa-594e-471a-8a59-b625315691a2")
 			(effects
 				(font
@@ -14861,7 +14864,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "B.Cu")
 		(uuid "0cb314cf-0cb1-4472-8114-1019aa44f39e")
-		(at 80 149 180)
+		(at 80 148.5 180)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R4"
@@ -14878,7 +14881,7 @@
 		)
 		(property "Value" "10k"
 			(at 0 -1.43 0)
-			(layer "B.Fab")
+			(layer "B.SilkS")
 			(uuid "fb6914b2-22ef-40e6-a4bd-27fd8d8a48b7")
 			(effects
 				(font
@@ -15097,7 +15100,7 @@
 		)
 		(property "Value" "5k1"
 			(at 0 -1.43 0)
-			(layer "B.Fab")
+			(layer "B.SilkS")
 			(uuid "22c2bf4d-5488-42b3-9e30-c3c76a105df6")
 			(effects
 				(font
@@ -15316,7 +15319,7 @@
 		)
 		(property "Value" "10k"
 			(at 0 -1.43 0)
-			(layer "B.Fab")
+			(layer "B.SilkS")
 			(uuid "e91d0fce-28b6-4752-b8a6-6dde5d8d76ed")
 			(effects
 				(font
@@ -15535,7 +15538,7 @@
 		)
 		(property "Value" "5k1"
 			(at 0 -1.43 0)
-			(layer "B.Fab")
+			(layer "B.SilkS")
 			(uuid "f81b16a5-e29e-4c3f-bfae-74602a674699")
 			(effects
 				(font
@@ -15737,7 +15740,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "B.Cu")
 		(uuid "37f0f383-5a66-4242-961c-74ea3191bc8d")
-		(at 110 125)
+		(at 110 125.5)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R5"
@@ -15754,7 +15757,7 @@
 		)
 		(property "Value" "10k"
 			(at 0 -1.43 0)
-			(layer "B.Fab")
+			(layer "B.SilkS")
 			(uuid "98d35500-4bcb-49dd-a255-acf655f6fce1")
 			(effects
 				(font
@@ -15956,7 +15959,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "B.Cu")
 		(uuid "3d9bdb37-a727-46ec-be0c-dc6336e6bcf7")
-		(at 240 154 -90)
+		(at 239.5 154 -90)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R3"
@@ -15973,7 +15976,7 @@
 		)
 		(property "Value" "10k"
 			(at 0 -1.43 90)
-			(layer "B.Fab")
+			(layer "B.SilkS")
 			(uuid "7f2755c9-2296-4f65-8d59-64c42c232b11")
 			(effects
 				(font
@@ -16175,7 +16178,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "B.Cu")
 		(uuid "40f10f45-b9a7-40a5-8f57-0a5fc000c597")
-		(at 110 38 180)
+		(at 110 37.5 180)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R8"
@@ -16192,7 +16195,7 @@
 		)
 		(property "Value" "10k"
 			(at 0 -1.43 0)
-			(layer "B.Fab")
+			(layer "B.SilkS")
 			(uuid "dad009ff-5f59-4faf-ba01-79f6a4ad28e0")
 			(effects
 				(font
@@ -16411,7 +16414,7 @@
 		)
 		(property "Value" "10k"
 			(at 0 -1.43 0)
-			(layer "B.Fab")
+			(layer "B.SilkS")
 			(uuid "6f73a5f7-b39a-438d-9b8c-d862ff19d740")
 			(effects
 				(font
@@ -16613,7 +16616,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "B.Cu")
 		(uuid "447553a4-9338-47ee-9a3e-86e021542b24")
-		(at 85 33 90)
+		(at 85.5 33 90)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R1"
@@ -16630,7 +16633,7 @@
 		)
 		(property "Value" "10k"
 			(at 0 -1.43 90)
-			(layer "B.Fab")
+			(layer "B.SilkS")
 			(uuid "124d5262-6041-42c5-9c65-c378a8224b67")
 			(effects
 				(font
@@ -16832,7 +16835,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "B.Cu")
 		(uuid "73360382-27eb-449a-b7ab-422f9b1ed251")
-		(at 213 115 180)
+		(at 213 114.5 180)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R6"
@@ -16849,7 +16852,7 @@
 		)
 		(property "Value" "10k"
 			(at 0 -1.43 0)
-			(layer "B.Fab")
+			(layer "B.SilkS")
 			(uuid "884b1ee1-898e-4aaf-a85c-49dd19420b05")
 			(effects
 				(font
@@ -17068,7 +17071,7 @@
 		)
 		(property "Value" "5k1"
 			(at 0 -1.43 0)
-			(layer "B.Fab")
+			(layer "B.SilkS")
 			(uuid "a0771b97-8a3a-47ef-9dea-d12e2f7bb0c1")
 			(effects
 				(font
@@ -17270,7 +17273,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "B.Cu")
 		(uuid "897be0c7-26ba-4bbf-9aaf-0034db6e8966")
-		(at 213 36 180)
+		(at 213 35.5 180)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R7"
@@ -17287,7 +17290,7 @@
 		)
 		(property "Value" "10k"
 			(at 0 -1.43 0)
-			(layer "B.Fab")
+			(layer "B.SilkS")
 			(uuid "9bc72a1e-0940-43e7-bcc6-11a2b0ef940b")
 			(effects
 				(font
@@ -18711,7 +18714,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "B.Cu")
 		(uuid "e6ce35c7-8dc4-407e-b642-a28654ebada8")
-		(at 240 33 -90)
+		(at 239.5 33 -90)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R2"
@@ -18728,7 +18731,7 @@
 		)
 		(property "Value" "10k"
 			(at 0 -1.43 90)
-			(layer "B.Fab")
+			(layer "B.SilkS")
 			(uuid "6349ff8e-d659-4eb3-b084-34656d25e052")
 			(effects
 				(font
@@ -18947,7 +18950,7 @@
 		)
 		(property "Value" "3k3"
 			(at 0 -1.43 0)
-			(layer "B.Fab")
+			(layer "B.SilkS")
 			(uuid "45c49d1c-d8ab-4c15-9050-8d36cc318752")
 			(effects
 				(font
@@ -19153,7 +19156,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R16"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "B.SilkS")
 			(uuid "3f729665-a4cf-4c10-bb67-b3d66748415f")
 			(effects
@@ -19165,8 +19168,8 @@
 			)
 		)
 		(property "Value" "3k3"
-			(at 0 -1.43 360)
-			(layer "B.Fab")
+			(at 0 -1.43 0)
+			(layer "B.SilkS")
 			(uuid "60763a4c-68ff-43ea-b2f0-7fd06b2a70bf")
 			(effects
 				(font
@@ -19324,7 +19327,7 @@
 			(uuid "cd76caed-dfab-47dd-913c-d7951f5cb862")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "5a00b830-3774-4567-9b61-33e4f489e56f")
 			(effects
@@ -19375,6 +19378,17 @@
 		(fill none)
 		(layer "B.SilkS")
 		(uuid "55a7ddc0-7f4a-4ee6-b9fd-d8b0d3b1d767")
+	)
+	(gr_rect
+		(start 79 83.5)
+		(end 93 118.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "B.SilkS")
+		(uuid "69a10f0b-c1c3-49c7-b764-28dd9bb97b74")
 	)
 	(gr_rect
 		(start 155 47)
@@ -19616,6 +19630,17 @@
 		(uuid "f8d0a909-3545-4274-82ea-10473544d3fb")
 	)
 	(gr_rect
+		(start 79 83.5)
+		(end 93 118.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "fe5316f0-0667-4159-a8d0-f437333a3a60")
+	)
+	(gr_rect
 		(start 75 28)
 		(end 250 159)
 		(stroke
@@ -19625,6 +19650,58 @@
 		(fill none)
 		(layer "Edge.Cuts")
 		(uuid "1065e0aa-8c0f-49a6-98d1-90e14dcc153c")
+	)
+	(gr_text "< Socket >\n< Header >"
+		(at 162 137.5 0)
+		(layer "B.SilkS")
+		(uuid "6642082c-286d-4cf6-8a39-3114564badf2")
+		(effects
+			(font
+				(size 1.5 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "GND"
+		(at 224 117 -90)
+		(layer "B.SilkS")
+		(uuid "7b0fad3b-bb46-4a57-a8dc-f1c74b7fa5cc")
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+			)
+			(justify bottom mirror)
+		)
+	)
+	(gr_text "3V3"
+		(at 224 41.5 -90)
+		(layer "B.SilkS")
+		(uuid "8ccc45b6-cf1c-4ca0-9c49-6232eb89a78d")
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+			)
+			(justify bottom mirror)
+		)
+	)
+	(gr_text "< Socket >\n< Header >"
+		(at 162 151.5 0)
+		(layer "B.SilkS")
+		(uuid "9a0b4cf6-d2b7-4e52-a7f1-c52a2afcc688")
+		(effects
+			(font
+				(size 1.5 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify mirror)
+		)
 	)
 	(gr_text "PC104 Breakout\nRev 3\n2025-02-02"
 		(at 189.5 86 0)
@@ -19637,6 +19714,19 @@
 				(bold yes)
 			)
 			(justify left top mirror)
+		)
+	)
+	(gr_text "5V"
+		(at 224 78.5 -90)
+		(layer "B.SilkS")
+		(uuid "dc1474df-5520-478d-95b8-b2290701341f")
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+			)
+			(justify bottom mirror)
 		)
 	)
 	(gr_text "(H2-27)"
