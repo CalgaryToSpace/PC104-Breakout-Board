@@ -1,6 +1,11 @@
 # PC104-Breakout-Board
 A quick PCB to break out the PC104 connector for flatsat testing
 
+## PCB
+
+![Top Side Render](docs/top-side-render.png)
+![Bottom Side Render](docs/bottom-side-render.png)
+
 ## Resources
 
 * PC104 Dimensional Specification: https://dspace.cvut.cz/bitstream/handle/10467/94475/F3-BP-2021-Geib-Filip-bp_GEIB.pdf

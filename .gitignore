@@ -3,6 +3,7 @@
 *auto_saved_files*
 replicate_layout.log
 ~*.lck
+production/
 
 # Temporary files
 *.000
